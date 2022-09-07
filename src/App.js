@@ -14,14 +14,12 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <div>
         <Routes>
         <Route path="/" element={<Aboutme />}/>
         <Route path="/projects" element={<Project />}/>
         <Route path="/about-me" element={<Aboutme />}/>
         <Route path="/contact-me" element={<Contact />}/>
         </Routes>
-      </div>
     </div>
   );
 }

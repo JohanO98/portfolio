@@ -57,13 +57,14 @@ h1 {
   border-bottom: solid white 1px;
   gap: 2rem;
   padding:2rem 0;
-  height: 25vh;
+  height: 30vh;
 }
 
 .link-page {
 color: inherit;
 text-decoration: none;
 height: 100%;
+width: 10rem;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -170,6 +171,13 @@ filter: invert();
   object-fit: cover;
   margin: 0;
 
+}
+.logos {
+  margin-top: 1rem;
+  width: 10rem;
+}
+.php-logo {
+  width: 6rem;
 }
 
 .main-info {

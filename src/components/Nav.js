@@ -1,6 +1,8 @@
 import React, {useState, useEffect, useRef} from 'react'
 import Dragon from '../images/Dragon.svg'
 import Hamburger from './Hamburger';
+import { Link } from 'react-router-dom';
+import { MenuItems } from "./Menuitems"
 export default function Nav() {
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -13,15 +15,16 @@ export default function Nav() {
         <div className="nav-navbar">
             <img className='nav-image' src={Dragon}></img>
             <ul className="nav-list"> 
-                <li className="nav-button nav-button1">
-                    <a className='link-page' href="/about-me">Om meg</a>
-                </li>
-                <li className="nav-button nav-button2">
-                    <a className='link-page' href="/projects">Prosjekter</a>
-                </li>
-                <li className="nav-button nav-button3">
-                    <a className='link-page' href="/contact-me">Kontakt</a>
-                </li>
+            {MenuItems.map((item, index) => {
+                return (
+                    <li className='nav-button' key={index}>
+                        <Link className={item.cName} to={item.url}>
+                            {item.title}
+                        </Link>
+                    </li>
+                )})
+                }
+
             </ul>
 
             <div className='hamburger' onClick={toggleHamburger}>
@@ -29,7 +32,8 @@ export default function Nav() {
             </div>
             <style jsx>{`
                 .hamburger{ 
-                    display: none; 
+                    display: none;
+                    
                 }
 
                 @media (max-width: 750px){   
@@ -37,8 +41,9 @@ export default function Nav() {
                         display: flex;
                     }
                     .nav-list{
-                        display: ${hamburgerOpen ? 'flex' : 'none'};
-                        transition: transform 1s;
+                        transform: translateY(-110%)
+                        transition: width 200ms ease;
+                        
                         
 
                     }
@@ -51,3 +56,5 @@ export default function Nav() {
         </div>
     )
 }
+
+
