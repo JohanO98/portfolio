@@ -14,10 +14,5 @@ export const MenuItems = [
         url: '/projects',
         cName:'link-page'
     },
-    {
-        title: 'Kontakt' ,
-        url: '/contact-me',
-        cName:'link-page'
-    },
     
 ]

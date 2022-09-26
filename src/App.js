@@ -2,6 +2,7 @@
 import './App.css';
 import Nav from './components/Nav'
 import Main from './components/Main'
+import Home from './components/Home';
 import Aboutme from './components/About-me';
 import Project from './components/Projects';
 import Contact from './components/Contact';
@@ -13,9 +14,9 @@ function App() {
  
   return (
     <div className="App">
-      <Nav />
+        <Nav />
         <Routes>
-        <Route path="/" element={<Aboutme />}/>
+        <Route path="/" element={<Home />}/>
         <Route path="/projects" element={<Project />}/>
         <Route path="/about-me" element={<Aboutme />}/>
         <Route path="/contact-me" element={<Contact />}/>
