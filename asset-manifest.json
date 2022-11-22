@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.432b98bb.css",
-    "main.js": "/portfolio/static/js/main.d513fa87.js",
+    "main.js": "/portfolio/static/js/main.d3cd6c11.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Johan_oen.jpg": "/portfolio/static/media/Johan_oen.04881a754fc819070627.jpg",
     "static/media/PHP-logo.png": "/portfolio/static/media/PHP-logo.00baeb442607d6f50cfe.png",
     "static/media/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png": "/portfolio/static/media/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.71e63521d765cbd82635.png",
     "static/media/Dragon.svg": "/portfolio/static/media/Dragon.2fa3e09219508ab10bed9065f19ef62a.svg",
     "index.html": "/portfolio/index.html",
     "static/media/iconmonstr-github-1.svg": "/portfolio/static/media/iconmonstr-github-1.04be58c17b3d5e9744424d414240dd85.svg",
     "main.432b98bb.css.map": "/portfolio/static/css/main.432b98bb.css.map",
-    "main.d513fa87.js.map": "/portfolio/static/js/main.d513fa87.js.map",
+    "main.d3cd6c11.js.map": "/portfolio/static/js/main.d3cd6c11.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.432b98bb.css",
-    "static/js/main.d513fa87.js"
+    "static/js/main.d3cd6c11.js"
   ]
 }
