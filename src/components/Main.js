@@ -1,4 +1,5 @@
 import React from 'react'
+import photo from '../images/Johan_oen.jpg'
 import Logos from '../images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png'
 import phplogo from '../images/PHP-logo.png'
 
@@ -6,7 +7,7 @@ import phplogo from '../images/PHP-logo.png'
 export default function Main() {
     return (
         <div className='main-container'>
-            <img className='img-container'src='./images/Johan_oen.jpg'></img>
+            <img className='img-container'src={photo}></img>
             <div class='main-info'>
             <h1>Mitt navn er Johan Oen</h1>
             <h3>Fullstack-utvikler</h3>
